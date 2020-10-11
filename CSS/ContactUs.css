@@ -1,0 +1,23 @@
+/* Form design*/
+form input{
+  color: white;
+  padding: 10px 20px;
+  margin: 8px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+/* Enlarging the text box for the issue*/
+form input[id=Issue]{
+	height: 300px;
+	width: 450px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: black;
+}

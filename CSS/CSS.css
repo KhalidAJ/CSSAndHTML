@@ -1,0 +1,12 @@
+/* body representation using google font*/
+body{
+	font-family: 'Sofia';
+	background-color:#C85E00;
+}
+/*coloring the titles for subsections*/
+h1{
+	color:darkgray
+}
+h2{
+	color:darkgray
+}

@@ -1,0 +1,58 @@
+/*The body used here to ensure nav bar is on top and edit the font*/
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*The following two NavBar are used to properly seperate the items and choose their color*/
+.navigBar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navigBar a {
+  float: left;
+  color: #f2f2f2;
+  padding: 14px 45px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*This is used to edit the item as the user hovers over*/
+.navigBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* The following two are used to space the nav bar properly to ensure that they are exactly fit with the page*/
+.navigBar ul{
+    display: inline;
+    list-style: none;
+}
+.navigBar ul li{
+    margin: -20px 0;
+}
+/*The two below are used to position the drop down list properly*/
+.navigBar ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    background-color: #333;
+    margin-top: 49px;
+    margin-left: 419px;
+}
+.dropdown{
+    display: none;
+}
+/*The following is for video proper placement*/
+.VID{
+	margin-top: 100px;
+	margin-left: 150px;
+}
+hr{
+	border-width: 1px;
+}
+.fa{
+	margin-right: 15px;
+}
+.foot i{
+	font-size: 30px;
+}
